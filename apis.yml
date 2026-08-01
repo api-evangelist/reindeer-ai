@@ -1,23 +1,86 @@
 aid: reindeer-ai
-name: Reindeer Ai
-description: Reindeer Ai is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: Reindeer AI
+description: >-
+  Reindeer AI is an enterprise agentic AI platform that automates back-office
+  business operations across finance, banking, insurance, supply chain,
+  procurement, legal compliance, and global business services. Founded in 2024
+  with offices in New York and Tel Aviv, Reindeer deploys custom AI agents that
+  learn from operational workflows using its Fast Track Training approach
+  (functional models in roughly two weeks from a small number of samples), with
+  human-in-the-loop escalation, continuous learning, and Model Reality Grounding
+  safeguards against hallucination. It ships 200+ pre-trained skills and 200+
+  out-of-the-box integrations into systems such as SAP, Oracle, NetSuite,
+  Workday, ServiceNow, and Salesforce, is model-agnostic (Claude, GPT, Gemini,
+  Bedrock, DeepSeek, GLM), and emphasizes customer data ownership and enterprise
+  security (ISO 27001, SOC 2 Type 2, GDPR, HIPAA, CCPA). Reindeer is backed by
+  Lightspeed Venture Partners, TEAM8, and Vesey Ventures. Reindeer does not
+  publish a public developer API, OpenAPI, SDKs, or a developer portal; the
+  product is delivered as an enterprise engagement, so this profile captures
+  company identity and security posture rather than an API surface.
 url: https://raw.githubusercontent.com/api-evangelist/reindeer-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lightspeed-venture-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+- team8
+- vesey-ventures
+x-tier: profiled
+x-tier-reason: enterprise-platform-no-public-api
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/68aadc26bd9a46b617d5d6da/69e5cb9c638a9ddb5112b3dd_raindeer-logo-white.avif
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Agentic AI
+- Enterprise Automation
+- Supply Chain
+- Finance
+- Procurement
+- Back Office
 apis: []
+common:
+- type: TrustCenter
+  url: security/reindeer-ai-trust-center.yml
+- type: Compliance
+  url: security/reindeer-ai-trust-center.yml
+- type: DomainSecurity
+  url: security/reindeer-ai-domain-security.yml
+- type: Website
+  url: https://reindeer.ai
+- type: Blog
+  url: https://reindeer.ai/blog
+- type: Support
+  url: https://reindeer.ai/contact
+- type: PrivacyPolicy
+  url: https://reindeer.ai/legal/privacy-policy
+- type: Integrations
+  url: https://reindeer.ai/integrations
+- type: LinkedIn
+  url: https://www.linkedin.com/company/reindeer-ai
+- type: Twitter
+  url: https://x.com/Reindeer_AI
+- type: YouTube
+  url: https://www.youtube.com/@reindeer_ai_official
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
