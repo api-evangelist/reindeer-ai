@@ -38,7 +38,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://cdn.prod.website-files.com/68aadc26bd9a46b617d5d6da/69e5cb9c638a9ddb5112b3dd_raindeer-logo-white.avif
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
